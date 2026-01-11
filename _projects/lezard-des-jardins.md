@@ -1,13 +1,16 @@
 ---
 layout: page
 title: "Le Lézard des Jardins"
-date: 15/09/2025
+date: 2025-09-15
 description: Projet de site web de 4 pages réalisé dans le cadre d'une candidature à la Web@cadémie Lille.
 image: ""
 # image: /assets/images/min-lezard.png
 techs: [HTML, CSS, JavaScript]
 methodes : ""
 ---
+<!-- miniature -->
+<!-- Date du projet -->
+##### Réalisé le : {{ page.date | date: "%d %B %Y" }}
 
 
 ## Présentation

@@ -1,15 +1,16 @@
 ---
 layout: page
 title: "Crédit Alison"
-date: 31/10/2025
+date: 2025-10-31
 description: Projet de banque en ligne fictive réalisé lors du SAS Posture Pro auprès de l'Association Zcode pour l'emploi.
 image: ""
 # image: /assets/images/min-creditalison.png
 techs: [HTML, CSS, JavaScript]
 methodes : ""
 ---
-<!-- WARNING -->
-<!-- ![Bannière Crédit Alison]({{ site.baseurl }}/assets/images/min-credialison.png) -->
+<!-- miniature -->
+<!-- Date du projet -->
+##### Réalisé le : {{ page.date | date: "%d %B %Y" }}
 
 
 ## Présentation

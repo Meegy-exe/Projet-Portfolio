@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Klivio
-date: 08/12/2025
+date: 2025-12-08
 description: Site proposant des formations en ligne.
 image: /assets/images/klivio-haut.png
 techs: [HTML, CSS, Tailwind]
@@ -11,7 +11,9 @@ order: 1
 ---
 <!-- cibler la source de la photo avec site.baseurl -->
 ![Bannière Klvio]({{ site.baseurl }}/assets/images/klivio-haut.png)
-<!-- {: width="150px"} -->
+
+<!-- Date du projet -->
+##### Réalisé le : {{ page.date | date: "%d %B %Y" }}
 
 ## Présentation
 Klivio est une plateforme proposant des formations en ligne.<br>

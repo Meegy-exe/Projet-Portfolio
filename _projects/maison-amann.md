@@ -1,13 +1,17 @@
 ---
 layout: page
 title: "Maison Amann"
-date: 15/10/2025
+date: 2025-10-15
 description: Projet de site web réalisé lors du SAS Posture Pro auprès de l'Association Zcode pour l'emploi.
 image: ""
 # image: /assets/images/min-lezard.png
 techs: [HTML, CSS]
 methodes : ""
 ---
+<!-- miniature -->
+<!-- Date du projet -->
+##### Réalisé le : {{ page.date | date: "%d %B %Y" }}
+
 
 
 ## Présentation
@@ -36,7 +40,7 @@ A venir...
 ---
 
 ## Consigne du projet
-Il était demandé de faire un site simple en HTML/CSS, le choix du thème était libre.
+Il était demandé de faire un site simple en HTML/CSS entièrement en anglais, le choix du thème était libre.
 
 ## HTML / CSS 
 A venir...

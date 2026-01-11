@@ -112,6 +112,9 @@
 
 // Conteneur voir le projet
 .bottom-card-pj {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     color: #888;
     font-size: 0.9em;
     margin-top: auto;
@@ -123,6 +126,20 @@
     background-color: rgba(0, 0, 0, 0.2);
 
 }
+
+.date-pj {
+    font-size: 0.9em;
+    font-weight: normal;
+    color: #666;
+}
+
+// Contenu texte + flèche
+.content-icon{
+    display: flex;
+    align-items: center;
+
+}
+
 
 // Conteneur flèche
 .content-icon {
