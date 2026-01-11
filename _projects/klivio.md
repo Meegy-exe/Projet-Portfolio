@@ -5,7 +5,7 @@ date: 2025-12-08
 description: Site proposant des formations en ligne.
 image: /assets/images/klivio-haut.png
 techs: [HTML, CSS, Tailwind]
-methodes : [Responsive, Accessibilité, SEO]
+methodes: [Responsive, Accessibilité, SEO]
 # github_link: https://meegy-exe.github.io/
 order: 1
 ---
