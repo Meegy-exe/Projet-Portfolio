@@ -4,8 +4,18 @@ $background-color: #1b1b1e;
 $form-background: #151516;
 $background-extern: #141317;
 $background-main: #212126;
+
+
+
 // Couleur des textes :
+
+// Principale
 $text-color: #cbd5e1;
+// Page sommaire projet
+$text-color-pj: #aaa;
+// Couleur des tech
+$skill-text-color: #ccc;
+
 // Couleur des liens :
 $link-color: #ef4444;
 // Fond des colonnes et bordures
@@ -15,7 +25,7 @@ $nav-border: #333;
 // Couleur des compétences (html, tailwind, ect):
 $skill-background: #2a2a2a;
 $skill-border: #444;
-$skill-text-color: #ccc;
+
 // Police
 // Principale
 $font-family-base: 'Segoe UI', Tahoma, Verdana, sans-serif;

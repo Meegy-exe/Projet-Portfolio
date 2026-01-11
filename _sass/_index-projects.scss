@@ -19,9 +19,11 @@
     border: 1px solid $nav-border;
     border-radius: 16px;
     text-decoration: none;
+    // cacher ce qui dépasse du cadre
+    overflow: hidden;
     // addoucit l hover
-    transition: all 0.3s cubic-bezier(0.25n 0.8, 0.25, 1);
-    box-shadow: 0 4px 6px $background-color;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 // Hover carte projet
@@ -30,6 +32,7 @@
     // monte légèrement
     transform: translateY(-7px);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+    text-decoration: none;
 }
 
 // h3 hover
@@ -37,20 +40,108 @@
     color: $rouge-vif;
 }
 
-// flèche hover
-.card-project:hover .arrow{
-    color: $rouge-vif;
-    transform: translateY(5px);
+
+// Contenant miniatures des projets
+.miniature-pj {
+    height: 180px;
+    // blanc légère transparence
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
+// Miniature des projets
+.miniature-pj img {
+    width: 100%;
+    // pour supprimer espace blanc
+    display: block;
+    height: 100%;
+    // remplit sans déformer limg
+    object-fit: cover;
 
-
-.arrow {
-    font-size: 3em;
-    color: $rouge-vif;
 }
 
 // La div qui englobe les cartes de projets
 .sommaire-projets {
     margin-top: 20px;
+}
+
+// Contenu du texte
+.card-pj {
+    display: flex;
+    flex-direction: column;
+    // pousse le contenu vers le bas
+    flex-grow: 1;
+    padding: 25px;
+}
+
+.card-pj h3 {
+    margin-top: 0;
+    transition: color 0.3s;
+}
+
+.card-pj p {
+    color: $text-color-pj;
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+// Conteneur des tech
+.bloc-tech-index {
+    margin-top: 15px;
+}
+
+// Tech
+.bloc-tech-index .tech-index {
+    display: inline-block;
+    color: $skill-text-color;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.05);
+    font-size: 0.75em;
+    margin-right: 5px;
+    padding: 4px 10px;
+    margin-bottom: 5px;
+}
+// WARNING var couleur bg tech a declarer
+
+
+// Conteneur voir le projet
+.bottom-card-pj {
+    color: #888;
+    font-size: 0.9em;
+    margin-top: auto;
+    padding: 15px 25px;
+    text-align: right;
+    font-weight: bold;
+    // ligne séparation
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    background-color: rgba(0, 0, 0, 0.2);
+
+}
+
+// Conteneur flèche
+.content-icon {
+    // 
+    display: inline-block;
+    margin-left: 5px;
+    // alligne avec le texte
+    vertical-align: middle;
+    font-size: 2em;
+    color: $text-color-pj;
+    // addoucit + transition vers la couleur vers l'hover
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+// Flèche
+.content-icon .icon-arrow {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+
+
+// flèche hover
+.card-project:hover .content-icon{
+    color: $rouge-vif;
+    // vers la droite
+    transform: translateX(5px);
 }
