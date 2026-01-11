@@ -56,7 +56,14 @@
     height: 100%;
     // remplit sans déformer limg
     object-fit: cover;
+    // effet de zoom pour lhover
+    transition: transform 0.5s ease;
+}
 
+// Hover miniature
+.card-project:hover .miniature-pj img {
+    // effet de zoom
+    transform: scale(1.05);
 }
 
 // La div qui englobe les cartes de projets
