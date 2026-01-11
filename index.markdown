@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Accueil
+description: "Portfolio d'Alison Dehaies, étudiante en développement web à Epitech Lille."
 ---
 <!-- toujours écrire après les --- zone de front matter -->
 <!-- ajout profil de profil taille défini bord arrondi -->

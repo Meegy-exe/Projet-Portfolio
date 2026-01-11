@@ -3,6 +3,7 @@ layout: page
 title: Contact
 permalink: /contact/
 order: 3
+description: "N'hésitez pas à me contacter via le formulaire ou par email !"
 ---
 <!-- bien fermer les var sinon ça crash -->
 

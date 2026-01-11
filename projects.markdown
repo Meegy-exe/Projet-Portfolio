@@ -3,11 +3,12 @@ layout: page
 title: Mes projets
 permalink: /projets/
 order: 2
+description: "Retrouvez mes projets web : intégration de maquettes, sites responsives et autres projets durant ma formation."
 ---
 <!-- Page sommaire des projets -->
 # Mes projets réalisés :
 <!-- phrase à revoir WARNING -->
-### Retrouvez quelques-uns de mes projets effectués durant la formation, la prépa et mes projets perso ...
+<p>Retrouvez quelques-uns de mes projets effectués durant la formation, la prépa et mes projets perso ...</p>
 <!-- Bloc des projets -->
 <div class="project-grid">
     <!-- Affichage chronologique -->
@@ -22,7 +23,7 @@ order: 2
         </div>
         {% endif %}
         <div class="card-pj">
-            <h3>{{ project.title }}</h3>
+            <h2>{{ project.title }}</h2>
             <!-- truncate : au dela de 100 caractère ça met ... -->
             <p>{{ project.description | truncate: 100 }}</p>
             <!-- Technologies utilisées -->

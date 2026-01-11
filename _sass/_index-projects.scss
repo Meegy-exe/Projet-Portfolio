@@ -6,7 +6,7 @@
     display: grid;
     gap: 25px;
     margin-top: 30px;
-    grid-template-columns: repeat(auto-fill, minmax(300px,  1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 // Carte des projets
@@ -27,7 +27,7 @@
 }
 
 // Hover carte projet
-.card-project:hover{
+.card-project:hover {
     border-color: $rouge-vif;
     // monte légèrement
     transform: translateY(-7px);
@@ -36,7 +36,7 @@
 }
 
 // h3 hover
-.card-project:hover h3 {
+.card-project:hover h2 {
     color: $rouge-vif;
 }
 
@@ -80,9 +80,10 @@
     padding: 25px;
 }
 
-.card-pj h3 {
+.card-pj h2 {
     margin-top: 0;
     transition: color 0.3s;
+    font-size: 1.1em;
 }
 
 .card-pj p {
@@ -107,6 +108,7 @@
     padding: 4px 10px;
     margin-bottom: 5px;
 }
+
 // WARNING var couleur bg tech a declarer
 
 
@@ -133,12 +135,6 @@
     color: #666;
 }
 
-// Contenu texte + flèche
-.content-icon{
-    display: flex;
-    align-items: center;
-
-}
 
 
 // Conteneur flèche
@@ -164,7 +160,7 @@
 
 
 // flèche hover
-.card-project:hover .content-icon{
+.card-project:hover .content-icon {
     color: $rouge-vif;
     // vers la droite
     transform: translateX(5px);

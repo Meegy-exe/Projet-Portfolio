@@ -2,6 +2,7 @@
 layout: page
 title: A propos
 permalink: /a-propos/
+description: "Je suis Alison (Meegy), passionée par le développement web."
 order: 1
 ---
 
@@ -18,20 +19,20 @@ order: 1
     <div class="grid-formation">
      <div class="colonne-gauche-ap">
             <section class="section">
-                <h3>Formations</h3>
+                <h2>Formations</h2>
                 <div class="carte-formation">
                 <p class="date">2025 - Actuellement</p>
-                    <h4>Développeur Web</h4>
+                    <h3>Développeur Web</h3>
                     <p class="structure">Epitech (Web@cadémie)</p>
                     <p class="description">Apprentissage intensif des technologies web, méthode par projets, piscine.</p>
                 </div>        
             </section>
 
     <section class="section">
-        <h3>Expérience</h3>
+        <h2>Expérience</h2>
         <div class="carte-formation">
             <p class="date">2023 - 2024</p>
-            <h4>Garde d'enfants à domicile</h4>
+            <h3>Garde d'enfants à domicile</h3>
             <p class="structure">Domicio Douai</p>
             <div class="description">
                 <ul class="list-cv">
@@ -42,7 +43,7 @@ order: 1
 
         <div class="carte-formation">
             <p class="date">2021 - 2022</p>
-            <h4>Animatrice pour enfant</h4>
+            <h3>Animatrice pour enfant</h3>
             <p class="structure">Association Multiloisirs Intercommunales</p>
             <div class="description">
                 <ul class="list-cv">
@@ -57,7 +58,7 @@ order: 1
 
         <div class="carte-formation">
             <p class="date">2020 - 2021</p>
-            <h4>Service civique</h4>
+            <h3>Service civique</h3>
             <p class="structure">Association Multiloisirs Intercommunales</p>
             <div class="description">
             <ul class="list-cv">
@@ -73,7 +74,7 @@ order: 1
     
         <div class="colonne-droite-ap">
             <section class="section">
-            <h3>Compétences techniques</h3>
+            <h2>Compétences techniques</h2>
                 <div class="skills-container">
                 <span class="sk">HTML</span>
                 <span class="sk">CSS / SCSS</span>
@@ -87,7 +88,7 @@ order: 1
             </section>
 
            <section class="section">
-            <h3>Qualités personnelles</h3>
+            <h2>Qualités personnelles</h2>
                 <ul class="list-cv">
                     <li>Autonomie</li>
                     <li>Créativité</li>
@@ -98,7 +99,7 @@ order: 1
             </section>
 
             <section class="section">
-                <h3>Langues</h3>
+                <h2>Langues</h2>
                 <ul class="list-cv">
                     <li>Français : <strong>natif</strong></li>
                     <li>Anglais : <strong>B1</strong></li>
@@ -106,7 +107,7 @@ order: 1
             </section>
 
             <section class="section">
-                <h3>Temps libre & centres d'intérêts</h3>
+                <h2>Temps libre & centres d'intérêts</h2>
                 <p>Quand je n'ai pas le nez dans mes projets, j'accorde le plus de temps possible à mes amis et la <strong>gestion</strong> de mon serveur communautaire sur Discord.</p>
                     <ul class="list-cv">
                         <li>Jeux vidéo</li>
