@@ -71,7 +71,7 @@ Je faisais des sauvegardes régulières sur mon repo Github, ainsi qu'en local s
 
 Les fichiers ont été vérifier avec les différents validators (W3C, WAVE et Lighthouse).
 
-Et en second temsp j'ai fait la refonte avec le framework Tailwind CSS sur la même structure HTML.
+Et en second temps j'ai fait la refonte avec le framework Tailwind CSS sur la même structure HTML.
 
 
 ## Ce que j'ai appris
