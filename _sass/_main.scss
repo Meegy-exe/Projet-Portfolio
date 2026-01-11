@@ -326,6 +326,25 @@ h6 {
 
 }
 
+.infos {
+    color: #555;
+    font-size: 0.85em;
+    margin-top: 4px;
+}
+
+// ligne séparatrice
+.other {
+    color: $skill-border;
+    margin: 0 8px;
+    font-size: 0.8em;
+}
+
+// Conteneur droit footer
+.thankslohan:hover {
+    color: $rouge-vif;
+}
+
+
 //// FOOTER MOBILE/////
 .footer-mobile {
     display: none;
