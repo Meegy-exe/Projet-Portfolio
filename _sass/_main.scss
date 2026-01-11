@@ -34,6 +34,7 @@ nav a {
     transition: 0.3s;
 
 }
+
 // Hover pour les liens nav
 nav a:hover {
     color: $rouge-vif;
@@ -42,7 +43,12 @@ nav a:hover {
 }
 
 // Titre
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: $text-color;
     margin-top: 0;
 }
@@ -68,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
     // évite les espaces blancs
     display: block;
     width: 100%;
-    height: auto;    
+    height: auto;
 }
 
 
@@ -98,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 // "..." dans la bulle
-.bulle-avatar::before{
+.bulle-avatar::before {
     // affiche
     content: "...";
     position: absolute;
@@ -160,7 +166,7 @@ h1, h2, h3, h4, h5, h6 {
     min-height: 100vh;
 }
 
-.container img{
+.container img {
     display: block;
     max-width: 100%;
     height: auto;
@@ -271,7 +277,9 @@ h1, h2, h3, h4, h5, h6 {
         flex-direction: column;
     }
 
-    .colonne-gauche, .contenu-principal, .colonne-droite {
+    .colonne-gauche,
+    .contenu-principal,
+    .colonne-droite {
         width: 100%;
         // toute la largeur
         height: auto;
@@ -287,8 +295,68 @@ h1, h2, h3, h4, h5, h6 {
         text-align: center;
         padding: 20px;
     }
+
     .colonne-droite {
         border-top: 1px solid #333;
         padding: 20px;
     }
+}
+
+
+
+
+//// FOOTER DESKTOP/////
+.bloc-footer {
+    width: 100%;
+    padding: 30px 0;
+    margin-top: 60px;
+    font-size: 0.85em;
+    // ligne séparation gris clair
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: transparent;
+    // WARNING var color a definir
+    color: #666;
+}
+
+// Conteneur footer
+.content-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+//// FOOTER MOBILE/////
+.footer-mobile {
+    display: none;
+}
+
+
+//////////////////////////////////
+/// RESPONSIVE FOOTER DESKTOP + MOBILE
+//////////////////////////////////
+
+
+// Format tablettes & petits écrans
+@media (max-width: 768px) {
+    // .content-footer {
+    //     flex-direction: column;
+    //     text-align: center;
+    //     gap: 10px;
+    // }
+
+    .footer-desktop {
+        display: none;
+    }
+
+    .footer-mobile {
+        display: block;
+        margin-top: 0;
+        // ligne séparation gris clair
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        // padding mobile haut droite bas gauche
+        padding: 30px 20px 50px 20px;
+        text-align: center;
+    }
+
 }
