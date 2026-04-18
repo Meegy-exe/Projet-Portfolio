@@ -8,4 +8,4 @@ Projet Portfolio professionnel multi-pages - 01/2026
 https://github.com/Meegy-exe/Portfolio
 
 - **Site déployé (Github Pages) :**
-https://meegy-exe.github.io/Portfolio/
+https://meegy-exe.github.io/Projet-Portfolio/
